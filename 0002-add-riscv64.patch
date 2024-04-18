@@ -1,7 +1,7 @@
-From 60687a7e4daa0c380b1334227a20393d860495e1 Mon Sep 17 00:00:00 2001
+From 91051612e2ec9adec4136c392f6e57776132b9d4 Mon Sep 17 00:00:00 2001
 From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 Date: Thu, 18 Apr 2024 17:39:48 +0800
-Subject: [PATCH 2/2] add riscv64
+Subject: [PATCH 2/3] add riscv64
 
 ---
  debian/patches/switch-to-support-riscv64-commit.patch | 7 +++++--

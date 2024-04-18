@@ -1,0 +1,25 @@
+From 001380df947a28d7e7b9466d9f05f91452017305 Mon Sep 17 00:00:00 2001
+From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
+Date: Thu, 18 Apr 2024 18:09:49 +0800
+Subject: [PATCH 3/3] usee right commit.
+
+---
+ debian/patches/switch-to-support-riscv64-commit.patch | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/debian/patches/switch-to-support-riscv64-commit.patch b/debian/patches/switch-to-support-riscv64-commit.patch
+index 9b219b0..a288fda 100644
+--- a/debian/patches/switch-to-support-riscv64-commit.patch
++++ b/debian/patches/switch-to-support-riscv64-commit.patch
+@@ -8,7 +8,7 @@ Origin: upstream, https://github.com/ros2/Mimick/pull/31
+  
+    include(ExternalProject)
+ -  set(mimick_version "de11f8377eb95f932a03707b583bf3d4ce5bd3e7")
+-+  set(mimick_version "0ad7ce1eef63d1606687a14e7b19d69e7b87bd2d")
+++  set(mimick_version "90d02296025f38da2e33c67b02b7fa0c7c7d460c")
+    externalproject_add(mimick-${mimick_version}
+ -    GIT_REPOSITORY https://github.com/ros2/Mimick.git
+ +    GIT_REPOSITORY https://github.com/ziyao233/Mimick.git
+-- 
+2.41.0
+
