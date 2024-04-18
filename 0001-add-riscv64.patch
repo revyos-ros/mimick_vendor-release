@@ -1,0 +1,42 @@
+From 97854bebb0e2e20c7b45af9cf4b6973a75a49198 Mon Sep 17 00:00:00 2001
+From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
+Date: Thu, 18 Apr 2024 15:48:59 +0800
+Subject: [PATCH] add riscv64
+
+---
+ debian/patches/series                              |  1 +
+ .../patches/switch-to-support-riscv64-commit.patch | 14 ++++++++++++++
+ 2 files changed, 15 insertions(+)
+ create mode 100644 debian/patches/series
+ create mode 100644 debian/patches/switch-to-support-riscv64-commit.patch
+
+diff --git a/debian/patches/series b/debian/patches/series
+new file mode 100644
+index 0000000..45a7aae
+--- /dev/null
++++ b/debian/patches/series
+@@ -0,0 +1 @@
++switch-to-support-riscv64-commit.patch
+diff --git a/debian/patches/switch-to-support-riscv64-commit.patch b/debian/patches/switch-to-support-riscv64-commit.patch
+new file mode 100644
+index 0000000..7ad676b
+--- /dev/null
++++ b/debian/patches/switch-to-support-riscv64-commit.patch
+@@ -0,0 +1,14 @@
++Unmarge pr
++From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
++Origin: upstream, https://github.com/ros2/Mimick/pull/31
++--- a/CMakeLists.txt
+++++ b/CMakeLists.txt
++@@ -58,7 +58,7 @@
++   endif()
++ 
++   include(ExternalProject)
++-  set(mimick_version "de11f8377eb95f932a03707b583bf3d4ce5bd3e7")
+++  set(mimick_version "0ad7ce1eef63d1606687a14e7b19d69e7b87bd2d")
++   externalproject_add(mimick-${mimick_version}
++     GIT_REPOSITORY https://github.com/ros2/Mimick.git
++     GIT_TAG ${mimick_version}
+-- 
+2.41.0
+
