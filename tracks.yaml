@@ -66,7 +66,7 @@ tracks:
     name: mimick_vendor
     patches: null
     release_inc: '2'
-    release_repo_url: null
+    release_repo_url: git@github.com:revyos-ros/mimick_vendor-release.git
     release_tag: :{version}
     ros_distro: humble
     vcs_type: git
