@@ -2,44 +2,6 @@
 Changelog for package mimick_vendor
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-0.6.1 (2024-03-28)
-------------------
-* Bump vendored mimick version for `ros2/Mimick#32 <https://github.com/ros2/Mimick/issues/32>`_ (`#35 <https://github.com/ros2/mimick_vendor/issues/35>`_)
-* Update to the commit that fixes mmk_noreturn. (`#34 <https://github.com/ros2/mimick_vendor/issues/34>`_)
-* Contributors: Chris Lalancette, Michael Carroll
-
-0.6.0 (2023-11-06)
-------------------
-* Update to the commit the fixes exe stack on macOS. (`#33 <https://github.com/ros2/mimick_vendor/issues/33>`_)
-* Contributors: Chris Lalancette
-
-0.5.0 (2023-08-21)
-------------------
-* Update to the comment that fixes the executable stack. (`#32 <https://github.com/ros2/mimick_vendor/issues/32>`_)
-* Update to take advantage of TARGET_ARCH (`#28 <https://github.com/ros2/mimick_vendor/issues/28>`_)
-* Contributors: Chris Lalancette, Michael Carroll
-
-0.4.1 (2023-07-11)
-------------------
-* Switch to ament_cmake_vendor_package (`#31 <https://github.com/ros2/mimick_vendor/issues/31>`_)
-* Contributors: Scott K Logan
-
-0.4.0 (2023-04-27)
-------------------
-
-0.3.2 (2023-02-14)
-------------------
-* [rolling] Update maintainers - 2022-11-07 (`#29 <https://github.com/ros2/mimick_vendor/issues/29>`_)
-* Contributors: Audrow Nash
-
-0.3.1 (2022-09-13)
-------------------
-* Mirror rolling to master
-* Contributors: Audrow Nash
-
-0.3.0 (2022-04-29)
-------------------
-
 0.2.8 (2022-03-25)
 ------------------
 * support pi zero (`#24 <https://github.com/ros2/mimick_vendor/issues/24>`_)
