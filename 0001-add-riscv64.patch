@@ -1,0 +1,55 @@
+From 0bd124d4a3eb9074e1cab06bfb1799be9fff27b5 Mon Sep 17 00:00:00 2001
+From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
+Date: Thu, 18 Apr 2024 15:48:59 +0800
+Subject: [PATCH] add riscv64
+
+---
+ debian/patches/series                         |  1 +
+ .../switch-to-support-riscv64-commit.patch    | 27 +++++++++++++++++++
+ 2 files changed, 28 insertions(+)
+ create mode 100644 debian/patches/series
+ create mode 100644 debian/patches/switch-to-support-riscv64-commit.patch
+
+diff --git a/debian/patches/series b/debian/patches/series
+new file mode 100644
+index 0000000..45a7aae
+--- /dev/null
++++ b/debian/patches/series
+@@ -0,0 +1 @@
++switch-to-support-riscv64-commit.patch
+diff --git a/debian/patches/switch-to-support-riscv64-commit.patch b/debian/patches/switch-to-support-riscv64-commit.patch
+new file mode 100644
+index 0000000..d8166ad
+--- /dev/null
++++ b/debian/patches/switch-to-support-riscv64-commit.patch
+@@ -0,0 +1,27 @@
++From 9b273fe81600d0dec4c56971f0efc5ab16ada35c Mon Sep 17 00:00:00 2001
++From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
++Date: Tue, 11 Jun 2024 19:15:50 +0800
++Subject: [PATCH] use support riscv64 fork
++
++---
++ CMakeLists.txt | 4 ++--
++ 1 file changed, 2 insertions(+), 2 deletions(-)
++
++diff --git a/CMakeLists.txt b/CMakeLists.txt
++index a559ae5..a679807 100644
++--- a/CMakeLists.txt
+++++ b/CMakeLists.txt
++@@ -5,8 +5,8 @@ find_package(ament_cmake REQUIRED)
++ find_package(ament_cmake_vendor_package REQUIRED)
++ 
++ ament_vendor(mimick_vendor
++-  VCS_URL https://github.com/ros2/Mimick.git
++-  VCS_VERSION 9af748b88f6d48723275006ccbb0360e50342dbb
+++  VCS_URL https://github.com/ziyao233/Mimick.git
+++  VCS_VERSION 90d02296025f38da2e33c67b02b7fa0c7c7d460c
++ )
++ 
++ ament_export_dependencies(mimick)
++-- 
++2.41.0
++
+-- 
+2.41.0
+
