@@ -1,4 +1,4 @@
-From 91051612e2ec9adec4136c392f6e57776132b9d4 Mon Sep 17 00:00:00 2001
+From f7082f69d533e37596b721d6de25a9f0e3cc0636 Mon Sep 17 00:00:00 2001
 From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 Date: Thu, 18 Apr 2024 17:39:48 +0800
 Subject: [PATCH 2/3] add riscv64
@@ -30,5 +30,5 @@ index 7ad676b..9b219b0 100644
 +     GIT_CONFIG advice.detachedHead=false
 +     # Suppress git update due to https://gitlab.kitware.com/cmake/cmake/-/issues/16419
 -- 
-2.41.0
+2.45.2
 

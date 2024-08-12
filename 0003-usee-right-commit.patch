@@ -1,4 +1,4 @@
-From 001380df947a28d7e7b9466d9f05f91452017305 Mon Sep 17 00:00:00 2001
+From 73f35545afff39d6c056a656c859b5ff6a9c062b Mon Sep 17 00:00:00 2001
 From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 Date: Thu, 18 Apr 2024 18:09:49 +0800
 Subject: [PATCH 3/3] usee right commit.
@@ -21,5 +21,5 @@ index 9b219b0..a288fda 100644
  -    GIT_REPOSITORY https://github.com/ros2/Mimick.git
  +    GIT_REPOSITORY https://github.com/ziyao233/Mimick.git
 -- 
-2.41.0
+2.45.2
 
