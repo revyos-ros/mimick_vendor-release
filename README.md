@@ -1,3 +1,26 @@
+## mimick_vendor (jazzy) - 0.6.2-1
+
+The packages in the `mimick_vendor` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy mimick_vendor --override-release-repository-push-url git@github.com:revyos-ros/mimick_vendor-release.git` on `Sat, 14 Sep 2024 06:35:35 -0000`
+
+The `mimick_vendor` package was released.
+
+Version of package(s) in repository `mimick_vendor`:
+
+- upstream repository: https://github.com/ros2/mimick_vendor.git
+- release repository: https://github.com/revyos-ros/mimick_vendor-release.git
+- rosdistro version: `0.6.2-1`
+- old version: `0.6.1-2`
+- new version: `0.6.2-1`
+
+Versions of tools used:
+
+- bloom version: `0.12.0`
+- catkin_pkg version: `1.0.0`
+- rosdep version: `0.22.2`
+- rosdistro version: `0.9.0`
+- vcstools version: `0.1.42`
+
+
 ## mimick_vendor (jazzy) - 0.6.1-2
 
 The packages in the `mimick_vendor` repository were released into the `jazzy` distro by running `/home/z572/gits/revyos-ros/venv/bin/bloom-release -r jazzy mimick_vendor` on `Tue, 11 Jun 2024 11:22:24 -0000`
