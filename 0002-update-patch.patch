@@ -1,0 +1,46 @@
+From ecba034f19f88e10e6d81d6911e01d88e40138ba Mon Sep 17 00:00:00 2001
+From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
+Date: Tue, 12 Nov 2024 15:47:46 +0800
+Subject: [PATCH 2/2] update patch.
+
+---
+ debian/patches/switch-to-support-riscv64-commit.patch | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/debian/patches/switch-to-support-riscv64-commit.patch b/debian/patches/switch-to-support-riscv64-commit.patch
+index d8166ad..7b86be0 100644
+--- a/debian/patches/switch-to-support-riscv64-commit.patch
++++ b/debian/patches/switch-to-support-riscv64-commit.patch
+@@ -1,4 +1,4 @@
+-From 9b273fe81600d0dec4c56971f0efc5ab16ada35c Mon Sep 17 00:00:00 2001
++From a4f70e3065dbacf2882a103b83337214abc494c9 Mon Sep 17 00:00:00 2001
+ From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
+ Date: Tue, 11 Jun 2024 19:15:50 +0800
+ Subject: [PATCH] use support riscv64 fork
+@@ -8,7 +8,7 @@ Subject: [PATCH] use support riscv64 fork
+  1 file changed, 2 insertions(+), 2 deletions(-)
+ 
+ diff --git a/CMakeLists.txt b/CMakeLists.txt
+-index a559ae5..a679807 100644
++index 110b4c9..a679807 100644
+ --- a/CMakeLists.txt
+ +++ b/CMakeLists.txt
+ @@ -5,8 +5,8 @@ find_package(ament_cmake REQUIRED)
+@@ -16,12 +16,12 @@ index a559ae5..a679807 100644
+  
+  ament_vendor(mimick_vendor
+ -  VCS_URL https://github.com/ros2/Mimick.git
+--  VCS_VERSION 9af748b88f6d48723275006ccbb0360e50342dbb
++-  VCS_VERSION 4dbd495e9f3d87a83c3201ef9d851e85f7133db7
+ +  VCS_URL https://github.com/ziyao233/Mimick.git
+ +  VCS_VERSION 90d02296025f38da2e33c67b02b7fa0c7c7d460c
+  )
+  
+  ament_export_dependencies(mimick)
+ -- 
+-2.41.0
++2.46.0
+ 
+-- 
+2.46.0
+

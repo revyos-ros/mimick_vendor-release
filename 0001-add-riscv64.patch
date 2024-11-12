@@ -1,7 +1,7 @@
-From 64285e6e8b24f997db337628347d90a72269e745 Mon Sep 17 00:00:00 2001
+From d28949639fe180c2a6785425bd0f0cf2eaecc9c6 Mon Sep 17 00:00:00 2001
 From: Zheng Junjie <zhengjunjie@iscas.ac.cn>
 Date: Thu, 18 Apr 2024 15:48:59 +0800
-Subject: [PATCH] add riscv64
+Subject: [PATCH 1/2] add riscv64
 
 ---
  debian/patches/series                         |  1 +
@@ -51,5 +51,5 @@ index 0000000..d8166ad
 +2.41.0
 +
 -- 
-2.45.2
+2.46.0
 
